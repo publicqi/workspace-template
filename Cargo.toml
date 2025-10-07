@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["bin/cli", "crates/lib"]
+exclude = ["external/*"]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+
+[workspace.dependencies]
